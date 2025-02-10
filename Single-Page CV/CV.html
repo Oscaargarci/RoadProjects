@@ -1,0 +1,217 @@
+<!--This code contains some information that may not be entirely accurate. Some details were added for learning and practice purposes. 
+I am in the process of improving my understanding and refining the details as I progress. Y bueno espero que les guste, pude haber agregado mas cosas,
+pero me adecue especificamente a lo que se pedia. Muchas gracias!-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Single-Page CV project to improve HTML and CSS skills">
+    <meta name="keywords" content="Frontend, Backend, full-stack, Developer, HTML, CSS, Javascript, CV">
+    <meta name="author" content="Oscar Garcia">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Junior Full-Stack Developer Curriculum">
+    <meta property="og:description" content="This is the CV of a full-stack developer.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/Single-Page CV/Images/icon.png" alt="folder icon" type="image/icon">
+    <title>Single-Page CV</title>
+
+    <!-- CSS Styles -->
+    <style>
+        /* Root Variables */
+        :root {
+            --primary-color: rgba(0, 132, 255, 0.877);
+            --secondary-color: rgb(0, 174, 0);
+            --font-family: "Inter", sans-serif;
+        }
+    
+        /* General Styles */
+        body {
+            font-family: var(--font-family);
+            user-select: none;
+            margin: 20px auto;
+            border: 2px solid black;
+            width: 550px;
+            padding: 40px;
+            background-color: #f8f9fa;
+        }
+
+        /* Media */
+        @media screen and (max-width: 430px) {
+            body {
+                margin: auto;
+                width: 70%;
+            }
+        }
+    
+        /* Section Separators */
+        .divider {
+            border-bottom: 2px solid black;
+            width: 70%;
+            margin: 15px 0;
+        }
+    
+        /* Headings */
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin: 15px 0;
+        }
+    
+        h2 {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--secondary-color);
+            margin: 0 0 10px 0;
+        }
+    
+        h3, h5 {
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        h5 {
+            font-weight: 300;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 4px;
+        }
+    
+        /* Links and Address Styling */
+        address a {
+            text-decoration: none;
+            color: black;
+        }
+    
+        /* Lists */
+        ul {
+            margin: 5px 0 10px;
+            padding-left: 20px;
+        }
+    
+        li {
+            margin-bottom: 5px;
+        }
+    
+        /* Sections and Articles */
+        section {
+            margin-top: 25px;
+        }
+    
+        article {
+            margin-bottom: 20px;
+        }
+    
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="divider"></div>
+        <h1>Oscar Garcia</h1>
+        <h2>Full-Stack Web Developer Junior</h2>
+        <address>
+            123 Ernesto Gomez, <br>Santo Domingo, ST 12345<br>
+            <a href="tel:+11234567890">(123) 456-7890</a><br>
+            <a href="mailto:no_reply@example.com">no_reply@example.com</a>
+        </address>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <h5>Frontend Development</h5>
+        <ul>
+            <li>HTML, CSS, JavaScript, React.js</li>
+            <li>Responsive Web Design, Accessibility</li>
+            <li>UI/UX Design, Figma Prototyping</li>
+        </ul>
+
+        <h5>Backend Development</h5>
+        <ul>
+            <li>Node.js, Express.js, REST API</li>
+            <li>Authentication (JWT, OAuth)</li>
+            <li>PostgreSQL, MongoDB, Firebase</li>
+        </ul>
+
+        <h5>Web Security</h5>
+        <ul>
+            <li>OWASP Top 10, HTTPS, CORS, Access Control</li>
+        </ul>
+
+        <h5>DevOps & Tools</h5>
+        <ul>
+            <li>Git, GitHub, Docker</li>
+            <li>CI/CD (GitHub Actions, Azure DevOps)</li>
+        </ul>
+
+        <h5>Soft Skills</h5>
+        <ul>
+            <li>Teamwork, Problem-Solving</li>
+            <li>Technical Documentation</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <article>
+            <h3>Apec University, SD - Systems Engineering</h3>
+            <p>January 2023 - April 2024</p>
+            <ul>
+                <li>Developed projects in full-stack web development and cybersecurity.</li>
+                <li>Implemented best security practices in web applications.</li>
+                <li>Learned network infrastructure and server administration.</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <p style="font-weight: bolder; font-size: 16px; margin: 10px 0;">Personal Projects</p>
+        <article>
+            <h3>University Information Platform</h3>
+            <p>March 2023 to February 2025</p>
+            <ul>
+                <li>Developed a web application to manage subject and professor information.</li>
+                <li>Used React.js, PostgreSQL, and Azure DevOps for CI/CD.</li>
+                <li>Implemented secure authentication with JWT and role-based access.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Website Prototypes</h3>
+            <p>Mar 2022 to Feb 2025</p>
+            <ul>
+                <li>Created several functional prototypes for small businesses.</li>
+                <li>Designed in Figma and developed using HTML, CSS, JavaScript, and React.js.</li>
+                <li>Optimized for SEO and accessibility.</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Across the Internet</h2>
+        <a href="https://github.com/Oscaargarci" target="_blank">GitHub</a> 
+    </section>
+</body>
+</html>
