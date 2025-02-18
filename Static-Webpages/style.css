@@ -4,5 +4,8 @@ body {
 
 /* Cards */
 .card {
-    border-color: white;
+    width: 390px;
+    height: 439px;
+    border: 1px solid white;
+    border-radius: 3px;
 }
