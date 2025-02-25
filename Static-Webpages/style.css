@@ -1,11 +1,189 @@
+/* General Page Styling */
 body {
-    background-color: #232830;
+    width: 1140px;
+    font-family: "Noto Sans", serif;
+    margin: 20px auto;  
+    padding: 40px; 
+    background-color: #232830; 
 }
 
-/* Cards */
+
+/* Header */
+header {
+    margin-bottom: 70px;
+}
+
+.icon {
+    width: 24px;
+}
+
+.header-img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 70px;
+    margin: 30px 0 15px 0;
+    color: #ff7575;
+    font-weight: 400;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+/* Navbar Styling */
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 30px; 
+    font-weight: 500;
+    color: #fff; 
+}
+
+.nav-links {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-links > li {
+    float: left;
+}
+
+.nav-links a {
+    display: block;
+    color: #fff; 
+    text-decoration: none; 
+    text-align: center;
+    padding: 16px;
+}
+
+
+/* Category nav */
+.sec-navbar {
+    border-top: 2px solid #4d4d4d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 60px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 0 15px 0;
+    column-gap: 55px;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 20px;
+    transition: color 0.3s;
+    font-style: italic; 
+}
+
+
+/* Sec NavBar Icon*/
+.icons-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    border-radius: 0;
+    width: 24px;
+    height: 24px;
+}
+
+
+/* Cards Grid Layout */
+.cards-gallery {
+    display: grid;
+    gap: 30px; /* Adds spacing between grid items */
+}
+
+/* Adjust Row Placement for Specific Cards */
+.card:nth-child(n+4):nth-child(-n+6) { grid-row: 2; }
+.card:nth-child(n+7):nth-child(-n+9) { grid-row: 3; }
+
+
+/* Card Styling */
 .card {
-    width: 390px;
-    height: 439px;
-    border: 1px solid white;
-    border-radius: 3px;
+    margin: auto;
+    background-color: white; 
+    width: auto; 
+    height: auto; 
+    border-radius: 22px; 
+    border: 1px solid #252930; 
+    padding: 22px;  
+}
+
+/* Image Styling */
+img {
+    width: 100%; /* Ensures images are responsive */
+    border-radius: 12px; /* Slightly rounds image corners */
+    margin-bottom: 15px;
+}
+
+/* Card Info Section */
+.card-info-container > p {
+    margin: 15px 0 0 0;
+}
+
+.title-card {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+/* Pagination */
+.pagination-container {
+    display: flex; 
+    justify-content: center;
+}
+
+.pagination {
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.pagination a {
+    color: #909090;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+.pagination a.active {
+    border-top: 2px solid #ff7575;
+    color: #ff7575;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
 }

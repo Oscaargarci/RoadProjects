@@ -4,58 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Static Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <img src="/Static-Webpages/Images/Group 17.png" alt="writings logo">
-            <ul>
-                <li>categories</li>
-                <li>articles</li>
-                <li>about</li>
+        <nav class="navbar">
+            <div class="logo">writings.dev</div>
+            <ul class="nav-links">
+                <li><a href="#">categories</a></li>
+                <li><a href="#">articles</a></li>
+                <li><a href="#">about</a></li>
             </ul>
         </nav>
-        <img src="/Static-Webpages/Images/Group 11.png" alt="" style="width: 100px;">
-        <h1>writings for Developers</h1>
-        <h3>Curated collection of articles for busy developers</h3>
+        <div class="header-content">
+            <img src="/Static-Webpages/Images/Group 11.png" alt="" class="header-img" width="50%">
+            <h1>writings for Developers</h1>
+            <h3>Curated collection of articles for busy developers</h3>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <img src="/Static-Webpages/Images/Icons/lists_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
-            <li>JavaScript</li>
-            <li>DevOps</li>
-            <li>Cloud</li>
-            <li>Terraform</li>
-            <li>Architecture</li>
-            <li>Scalability</li>
-            <li>Explainers</li>
+
+    <nav class="sec-navbar">
+        <div class="icons-container">
+            <img class="icon" src="/Static-Webpages/Images/Icons/Grid Icon.png" alt="">
+            <img class="icon" src="/Static-Webpages/Images/Icons/List Icon.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="#">Script</a></li>
+            <li><a href="#">DevOps</a></li>
+            <li><a href="#">Cloud</a></li>
+            <li><a href="#">Terraform</a></li>
+            <li><a href="#">Architecture</a></li>
+            <li><a href="#">Scalability</a></li>
+            <li><a href="#">Explainers</a></li>
         </ul>
     </nav>
+    
     <section>
-        <div class="card">
-            <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
-            <p class="title-card">Build continuous integration pipelines with Github Actions</p>
-            <p class="info-card">GitHub actions provide a really powerful way to integrate continuous integration and delivery
-                into your applications.
-            </p>
-            <p>June 24, 2022 &middot DevOps</p>
+        <div class="cards-gallery">
+            <div class="card div1">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Build continuous integration pipelines with Github Actions</p>
+                    <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
+
+            <div class="card div2">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Pyhton for the Absolute beginners</p>
+                    <p>Python is the most popular programming language out there and it is used for so many different industries.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
+            
+            <div class=" card div3">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Docker from Zero to Hero</p>
+                    <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
+            
+            <div class="card div4">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Build continuous integration pipelines with GitHub Actions</p>
+                    <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
+            
+            <div class="card div5">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Build continuous integration pipelines with Github Actions</p>
+                    <p> GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
+
+            <div class="card div6">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Build continuous integration pipelines with Github Actions</p>
+                    <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
+
+            <div class="card div7">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Build continuous integration pipelines with Github Actions</p>
+                    <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
+
+            <div class="card div8">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Build continuous integration pipelines with Github Actions</p>
+                    <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
+
+            <div class="card div9">
+                <div class="card-info-container">
+                    <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
+                    <p class="title-card">Build continuous integration pipelines with Github Actions</p>
+                    <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    <p>June 24, 2022 &middot DevOps</p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
-            <p class="title-card">Build continuous integration pipelines with Github Actions</p>
-            <p class="info-card">GitHub actions provide a really powerful way to integrate continuous integration and delivery
-                into your applications.
-            </p>
-            <p>June 24, 2022 &middot DevOps</p>
-        </div>
-        <div class="card">
-            <img src="/Static-Webpages/Images/Cards Images/image 2.png" alt="">
-            <p class="title-card">Build continuous integration pipelines with Github Actions</p>
-            <p class="info-card">GitHub actions provide a really powerful way to integrate continuous integration and delivery
-                into your applications.
-            </p>
-            <p>June 24, 2022 &middot DevOps</p>
+
+        <div class="pagination-container">
+            <div class="pagination">
+                <a href="#">Previous</a>
+                <a href="#">1</a>
+                <a class="active" href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">Next</a>
+            </div>
         </div>
     </section>
 </body>
