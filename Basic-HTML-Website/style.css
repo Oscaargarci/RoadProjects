@@ -1,0 +1,196 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap');
+
+/* Basic Reset */
+* {
+    font-family: "Noto Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Configuration */
+body {
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* User Profile */
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.user-name {
+    font-size: 16px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+/* MAIN SECTION */
+main {
+    padding: 100px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 62px;
+}
+
+main p {
+    font-size: 20px;
+    margin-top: 15px;
+    color: gray;
+    font-weight: 600;
+}
+
+/* MAIN CONTENT */
+.parent {
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+    grid-template-rows: 1fr;
+}
+
+/* Section Borders */
+#work-container, #education-container {
+    padding: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#projects-container, #work-container {
+    border-right: 1px solid black;
+}
+
+#work-container > h2{
+    margin-bottom: 15px;
+}
+
+.job {
+    margin-bottom: 50px;
+}
+
+.job > h3 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.job > p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Project List */
+#projects-container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#projects-container h2 {
+    padding: 30px;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-list li:first-child {
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.project-list li:not(:first-child) {
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 0;
+    border-top: 1px solid black;
+}
+
+/* Courses List */
+.courses-list {
+    list-style: inside;
+    list-style-type: "- ";
+}
+
+/* Reviews */
+.reviews {
+    padding: 30px;
+    margin: auto;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.review {
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.review p{
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.reviewer {
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+
+/* FOOTER */
+footer {
+    padding: 70px 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}

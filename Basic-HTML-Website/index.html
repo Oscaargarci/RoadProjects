@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <!--Nav Bar-->
+        <nav class="navbar">
+            <div class="navbar-left">
+                <div class="user-profile">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="" class="profile-picture">
+                    <span class="user-name">Oscar Garcia</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li> /
+                <li><a href="#projects-container">Projects</a></li> /
+                <li><a href="#">Articles</a></li> /
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <main>
+            <h1>FullStack Developer</h1>
+            <p>html only with proper layout, no styling</p>
+        </main>
+    </header>
+
+    <section class="parent">
+        <!--Projects-->
+        <section id="projects-container">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li>HTML Only Portfolio</li><span></span>
+                <li>Calculator</li>
+                <li>Quiz App</li>
+                <li>Countdown Timer</li>
+                <li>Product Upcoming Page</li>
+            </ul>
+        </section>
+        
+        <!--Work Experience-->
+        <section id="work-container">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>roadmap.sh</h3>
+                <p>Solved all the frontend projects</p>
+                <a href="#">Visit my Profile</a>
+            </div>
+            <div class="job">
+                <h3>OpenSource Work</h3>
+                <p>Contributed to 50 opensourse projects. Made my own projects with 200 GitHub Stars.</p>
+                <a href="#">Visit my GitHub Profile</a>
+            </div>
+        </section>
+        
+        <!--Education-->
+        <section id="education-container">
+            <h2>Education</h2>
+            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+
+            <h3>Courses I took:</h3>
+            <ul class="courses-list">
+                <li>Object Oriented Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web Engineering</li>
+                <li>Artificial Intelligence</li>
+                <li>Human Computer Interaction</li>
+                <li>Computer Graphics</li>
+                <li>Database Management Systems</li>
+                <li>Distributed Database Systems</li>
+                <li>Discreet Mathematics</li>
+            </ul>
+        </section>
+        
+        <!--Reviews-->
+        <section class="reviews">
+            <h2>Reviews from my Teachers</h2>
+            <div class="review-cards">
+                <div class="review">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <span class="reviewer">Jane Doe<br>Assistant Professor</span>
+                </div>
+                <div class="review">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <span class="reviewer">Jane Doe<br>Assistant Professor</span>
+                </div>
+                <div class="review">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <span class="reviewer">Jane Doe<br>Assistant Professor</span>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <p>&#169; all rights reserved <span id="copyright-year"></span></p>
+    </footer>
+</body>
+</html>
