@@ -8,6 +8,7 @@ This repository contains a collection of projects that demonstrate my skills in 
 - **Description:**  
   A one-page resume website built with HTML and CSS to showcase and enhance frontend development skills. It features a clean, responsive design with clearly organized sections for personal information, skills, education, and experience. The project leverages Google Fonts, CSS variables for custom styling, and Open Graph meta tags for social media optimization.
 - **Project Link:** [Single Page CV](https://github.com/Oscaargarci/RoadProjects/tree/master/Single-Page%20CV)
+- https://roadmap.sh/projects/basic-html-website
 
 ### 2. Static Web Page
 - **Description:**  
