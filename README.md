@@ -20,16 +20,6 @@ This repository contains a collection of projects that demonstrate my skills in 
 
 Each project includes an internal README with detailed instructions on how to run, compile, or deploy it. To get started, navigate to the folder of the project you're interested in and follow the provided instructions.
 
-## Contributions
-
-If you would like to contribute to any of these projects, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with a descriptive message.
-4. Push your changes to your fork.
-5. Open a pull request describing the changes made.
-
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). Please refer to the LICENSE file for more details.
